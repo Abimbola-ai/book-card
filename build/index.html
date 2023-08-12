@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body class="flex justify-center items-center min-h-screen bg-[url(https://cdn.pixabay.com/photo/2016/03/21/10/44/desert-1270345_1280.jpg)] bg-no-repeat" onclick="toggleContent()">
+    <div class="content-wrapper backdrop-blur-sm bg-white/30 text-[#181028] p-8 space-y-6 max-w-prose md:max-w-lg">
+        <div id="front-content">
+
+       
+        <div class="flex flex-row space-x-5">
+            <!-- For the image and ratings -->
+            <div class="basis-1/4"> 
+                <img class="mt-1.5"  src="https://m.media-amazon.com/images/I/41ti7jItpeL._SY264_BO1,204,203,200_QL40_ML2_.jpg" alt="The Dune book cover">
+
+<div class="flex items-center space-x-1 mt-2">
+    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+        viewBox="0 0 22 20">
+        <path
+            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+    </svg>
+    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+        viewBox="0 0 22 20">
+        <path
+            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+    </svg>
+    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+        viewBox="0 0 22 20">
+        <path
+            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+    </svg>
+    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+        viewBox="0 0 22 20">
+        <path
+            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+    </svg>
+    <svg class="w-4 h-4 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+        fill="currentColor" viewBox="0 0 22 20">
+        <path
+            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+    </svg>
+</div>
+
+                
+            </div>
+            <!-- For the book name,author and description -->
+            <div class="basis-3/4"> 
+                <h1 class="text-4xl font-bold tracking-wide text-[#ffcc37]">Dune</h1>
+                <p class="text-white">Novel by <span class="font-bold text-l ">Frank Herbert</span></p>
+                <p class="mt-2 text-xs text-white">Set in the far future amidst a sprawling feudal interstellar empire where planetary dynasties are controlled by noble houses that owe an allegiance to the Imperial House Corrino, Dune tells the story of young Paul Atreides (the heir apparent to Duke Leto Atreides and heir of House Atreides) as he and his family accept control of the desert planet Arrakis...</p>
+                <button class="rounded-full uppercase bg-[#943c14] text-xs text-[#f5a061] mt-4 border-[#f5a061] border p-2">Continue Reading</button>
+            </div>
+            
+        </div>
+            <table class="table-fixed w-full mt-5">
+                <tbody>
+                    <tr class="border-b-2 text">
+                        <th class="text-sm text-[#ffcc37] border-r-2 text-right px-3">Originally published</th>
+                        <td class="text-white text-xs px-3">1965</td>
+                    </tr>
+                    <tr class="border-b-2 text">
+                        <th class="text-sm text-[#ffcc37] border-r-2 text-right px-3">Author</th>
+                        <td class="text-white text-xs px-3">Frank Herbert</td>
+                    </tr>
+                    <tr class="border-b-2 text">
+                        <th class="text-sm text-[#ffcc37] border-r-2 text-right px-3">Followed by</th>
+                        <td class="text-white text-xs px-3">Dune Messiah</td>
+                    </tr>
+                    <tr class="border-b-2 text">
+                        <th class="text-sm text-[#ffcc37] border-r-2 text-right px-3">Page counts</th>
+                        <td class="text-white text-xs px-3">412</td>
+                    </tr>
+                    <tr class="border-b-2 text">
+                        <th class="text-sm text-[#ffcc37] border-r-2 text-right px-3">Adaptations</th>
+                        <td class="text-white text-xs px-3">Dune(1984), Frank Herbert's Dune (2000)</td>
+                    </tr>
+                    <tr class=" text">
+                        <th class="text-sm text-[#ffcc37] border-r-2 text-right px-3">Characters</th>
+                        <td class="text-white text-xs px-3">Paul Atreides, Vladmir Harkonnen, Chani, Leto Atreides I, Lay Jessica, Princess Irulan, Alia Atreides, Duncan Idaho, Feyd-Rautha, Thufir Hawat, Gurney Halleck, Shaddam IV Liet-Kynes, piter De Vries, Gaius Helen Mohaim, Glossu Rabban, Hasimir Fenring</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        <div>
+
+
+        </div>
+        </div>
+        <div id="back-content" class=" hide">
+            <img class="mt-1.5"  src="https://m.media-amazon.com/images/I/41ti7jItpeL._SY264_BO1,204,203,200_QL40_ML2_.jpg" alt="The Dune book cover">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
